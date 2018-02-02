@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+}
+
+.navLogo {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.nav-wrapper {
+    background-color: #fffabe
+}
+
+nav ul a {
+    color: #515151;
+    font-size: 16px;
+    font-family: Arial, Helvetica, SansSerif
+}
+
+.welcomeImg {
+    width: 100%;
+}
+
+.scheduleSection {
+    height: 100%;
+    width: 100%;
+    margin: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.timesBox {
+    height: 100%;
+    width: 13%;
+    background-color: #fffabe;
+    font-size: 12px;
+}
+
+.dayAndTime {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.flavorBox {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flavorBoxTwo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mondayFlavor {
+    background-color: #824603;
+    color: white;
+}
+
+.wednesdayFlavor {
+    background-color: #df5277;
+    color: white;
+}
+
+.fridayFlavor {
+    background-color: #a2304e;
+    color: white;
+}
+
+.sundayFlavor {
+    background-color: #c39005;
+    color: white;
+}
+
+.page-footer {
+    padding-bottom: 10px;
+}
+
+.leftFooter {
+
+}
+
+.centerFooter {
+
+}
+
+.rightFooter {
+    display: flex;
+    justify-content: flex-end;
+}

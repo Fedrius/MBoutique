@@ -1,9 +1,8 @@
 import React from 'react';
+import Home from './homepage'
 
-const App = () => (
-    <div>
-        <h1>MBoutique Home Page - Coming Soon!</h1>
-    </div>
-);
+const App = () => {
+    return <Home/>;
+};
 
 export default App;
