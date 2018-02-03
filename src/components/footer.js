@@ -4,7 +4,7 @@ import PhoneIcon from '../assets/images/mail.png'
 import FacebookIcon from '../assets/images/facebook.png'
 import TwitterIcon from '../assets/images/twitter.png'
 
-export default ()=> {
+export default (props)=> {
     return (
         <footer className="page-footer">
             <div className="container">
@@ -18,8 +18,9 @@ export default ()=> {
                     <div className='col s4'>
                         <div className='center-align centerFooter'>
                             <img src={PhoneIcon}/>
-                            <span>949-800-3111 <br/>
-                                Copyright @2014 Mboutique. All rights reserved.
+                            <span>959-800-3111 <br/>
+                                Copyright @2014 Mboutique. <br/>
+                                All rights reserved.
                             </span>
                         </div>
                     </div>
