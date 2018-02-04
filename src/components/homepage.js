@@ -1,29 +1,24 @@
 import React from 'react';
-import Header from './header';
 import Schedule from './schedule';
-import Footer from './footer';
-
 import Days from '../data/days'
-import Logo from '../assets/images/logo.png'
 import WelcomeImg from '../assets/images/welcome-image.png'
-import MacaronsMainImg from '../assets/images/macarons-image.png'
+import MacaronsHomeImg from '../assets/images/macarons-image.png'
 
-export default ()=> {
+export default (props)=> {
     return (
-        <div className='container'>
-            <Header logo={Logo}/>
+        <div>
             <div className='row'>
                 <div className='col s12'>
-                    <img className='welcomeImg' src={WelcomeImg}/>
+                    <img className='titleImg' src={WelcomeImg}/>
                 </div>
             </div>
             <div className='row'>
                 <div className='col s3'>
-                    <img className='macaronsMainImg' src={MacaronsMainImg}/>
+                    <img className='macaronsMainImg' src={MacaronsHomeImg}/>
                 </div>
                 <div className='col s9'>
                     <h4>WELCOME TO THE JUNGLE</h4>
-                    <p>Bresaola pork chop landjaeger, tri-tip chuck fatback cupim spare ribs.
+                    <p>Bresaol pork chop landjaeger, tri-tip chuck fatback cupim spare ribs.
                         Shoulder shankle venison, shank tongue tri-tip cow rump.
                         Tenderloin sirloin leberkas, corned beef sausage ground round hamburger drumstick.
                         Chicken tenderloin cupim, fatback bacon swine ham hock andouille pork pig.</p>
@@ -38,7 +33,6 @@ export default ()=> {
                 </div>
             </div>
             <Schedule days={Days}/>
-            <Footer/>
         </div>
     )
 }

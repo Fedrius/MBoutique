@@ -21,8 +21,12 @@ nav ul a {
     font-family: Arial, Helvetica, SansSerif
 }
 
-.welcomeImg {
+.titleImg {
     width: 100%;
+}
+
+.macaronsMainImg {
+    padding-top: 20px;
 }
 
 .scheduleSection {
@@ -93,4 +97,9 @@ nav ul a {
 .rightFooter {
     display: flex;
     justify-content: flex-end;
+}
+
+
+#extraCentering {
+    padding: 0 2rem;
 }
