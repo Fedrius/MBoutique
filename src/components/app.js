@@ -6,7 +6,7 @@ import Footer from './footer';
 import Homepage from './homepage';
 import OurMacarons from './ourMacarons';
 import GiftParties from './giftsParties'
-import Contact from './contact'
+import ContactForm from './contact'
 
 const App = () => {
     return (
@@ -15,7 +15,7 @@ const App = () => {
             <Route exact path='/' component={Homepage}/>
             <Route path='/ourMacarons' component={OurMacarons}/>
             <Route path='/giftsParties' component={GiftParties}/>
-            <Route path='/contact' component={Contact}/>
+            <Route path='/contact' component={ContactForm}/>
             <Footer/>
         </div>
     )
